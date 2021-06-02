@@ -19,7 +19,9 @@ module.exports = (
             output: 'README.md',
             helpers: {
                 devInstall: true,
-                remark: '```json\n// tsconfig.json\n' +
+                remark: '### 引入\n' +
+                '```json\n' +
+                '// tsconfig.json\n' +
                  fs.readFileSync(FastPath.getCwdPath('./docs/import.json'), { encoding: 'utf-8' }) +
                 '```',
                 postfixes: [
