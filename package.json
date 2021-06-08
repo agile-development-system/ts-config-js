@@ -2,7 +2,7 @@
   "name": "@ads/ts-config-js",
   "version": "1.0.2",
   "description": "ADS系统的ts配置预设",
-  "main": "tsconfig.json",
+  "main": "lib/index.json",
   "scripts": {
     "lint": "eslint --ext .js,.vue,.json,.md lib",
     "lint:fix": "eslint --ext .js,.vue,.json,.md lib --fix",
