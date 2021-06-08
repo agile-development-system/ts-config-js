@@ -1,3 +1,12 @@
+## [1.0.2](https://gitee.com/agile-development-system/ts-config-js/compare/v1.0.1...v1.0.2) (2021-06-08)
+
+
+### Bug Fixes
+
+* 修改配置文件位置 ([28ca35f](https://gitee.com/agile-development-system/ts-config-js/commits/28ca35f70cc22123b01deb34fcb74d8f2502e439))
+
+
+
 ## [1.0.1](https://gitee.com/agile-development-system/ts-config-js/compare/309610aacd2f4e13cae3eddb7d1d34ccdc34469d...v1.0.1) (2021-06-08)
 
 
