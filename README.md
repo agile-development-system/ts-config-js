@@ -1,6 +1,6 @@
 
 # @ads/ts-config-js
-**版本** ：1.0.0
+**版本** ：1.0.1
 ADS系统的ts配置预设
 
 ## 快速开始
@@ -22,6 +22,7 @@ npm i -D @ads/ts-config-js
   ]
 }
 ```
+
  <!-- 渲染后缀内容  -->
 
 
@@ -45,10 +46,7 @@ npm i -D @ads/ts-config-js
     "esModuleInterop": true,
     "declarationDir": "lib/types",
     "outDir": "lib"
-  },
-  "include": [
-    "src"
-  ]
+  }
 }
 ```
 
