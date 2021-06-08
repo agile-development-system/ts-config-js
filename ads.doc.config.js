@@ -23,7 +23,7 @@ module.exports = (
                 '```json\n' +
                 '// tsconfig.json\n' +
                  fs.readFileSync(FastPath.getCwdPath('./docs/import.json'), { encoding: 'utf-8' }) +
-                '```',
+                '```\n',
                 postfixes: [
                     {
                         id: 'source',

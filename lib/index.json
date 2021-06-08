@@ -11,8 +11,5 @@
     "esModuleInterop": true,
     "declarationDir": "lib/types",
     "outDir": "lib"
-  },
-  "include": [
-    "src"
-  ]
+  }
 }
