@@ -1,6 +1,6 @@
 {
   "name": "@ads/ts-config-js",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "ADS系统的ts配置预设",
   "main": "tsconfig.json",
   "scripts": {
@@ -8,6 +8,7 @@
     "lint:fix": "eslint --ext .js,.vue,.json,.md lib --fix",
     "docs": "ads-doc",
     "commit": "git add . && git commit --no-edit",
+    "postversion": "npm run changelog",
     "prepublishOnly": "npm run docs && (git add . && git commit -m \"docs(readme): 更新文档\" || true)",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && exit 0",
     "postchangelog": "git add . && git commit -m \"docs(changelog): 更新CHANGELOG\" || true"
