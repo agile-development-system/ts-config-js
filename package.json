@@ -1,6 +1,6 @@
 {
   "name": "@ads/ts-config-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ADS系统的ts配置预设",
   "main": "lib/index.json",
   "scripts": {
