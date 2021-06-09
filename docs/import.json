@@ -1,5 +1,5 @@
 {
-  "extends": "@ads/tsconfig",
+  "extends": "@ads/ts-config-js",
   "include": [
     "src"
   ]
