@@ -1,13 +1,14 @@
 
-# @ads/ts-config-js
-**版本** ：1.0.1
-ADS系统的ts配置预设
+# @agds/ts-config-js
+**版本** ：1.0.0
+
+agds系统的ts配置预设
 
 ## 快速开始
 
 ### 安装
 ```bash
-npm i -D @ads/ts-config-js
+npm i -D @agds/ts-config-js
 ```
 
 
@@ -16,7 +17,7 @@ npm i -D @ads/ts-config-js
 ```json
 // tsconfig.json
 {
-  "extends": "@ads/tsconfig",
+  "extends": "@agds/tsconfig",
   "include": [
     "src"
   ]
