@@ -1,6 +1,6 @@
 {
   "name": "@agds/ts-config-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "agds系统的ts配置预设",
   "main": "tsconfig.json",
   "scripts": {
