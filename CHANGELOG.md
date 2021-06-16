@@ -1,3 +1,13 @@
+## [1.0.3](https://gitee.com/agile-development-system/ts-config-js/compare/v1.0.2...v1.0.3) (2021-06-16)
+
+
+### Bug Fixes
+
+* 由于ts识别extends规则限制,修改文件位置 ([c10ac75](https://gitee.com/agile-development-system/ts-config-js/commits/c10ac75eacc70265601952f56057823683f3d68d))
+* 配置还原 ([70e44ee](https://gitee.com/agile-development-system/ts-config-js/commits/70e44ee73e433ab2584a8b348141cb2989738e41))
+
+
+
 ## [1.0.2](https://gitee.com/agile-development-system/ts-config-js/compare/v1.0.1...v1.0.2) (2021-06-08)
 
 
