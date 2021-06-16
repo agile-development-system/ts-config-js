@@ -13,7 +13,7 @@ module.exports = (
      */
     async () => {
         const [source] = (await Promise.all([
-            GenDoc.getFilesCode({ dir: 'lib', files: ['index.json'] }),
+            GenDoc.getFilesCode({ dir: '.', files: ['tsconfig.json'] }),
         ]));
         return {
             output: 'README.md',

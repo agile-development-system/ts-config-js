@@ -1,11 +1,11 @@
 {
   "name": "@agds/ts-config-js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "agds系统的ts配置预设",
-  "main": "lib/index.json",
+  "main": "tsconfig.json",
   "scripts": {
-    "lint": "eslint --ext .js,.vue,.json,.md lib",
-    "lint:fix": "eslint --ext .js,.vue,.json,.md lib --fix",
+    "lint": "eslint --ext .js,.json,.md lib",
+    "lint:fix": "eslint --ext .js,.json,.md lib --fix",
     "docs": "agds-doc",
     "commit": "git add . && git commit --no-edit",
     "postversion": "npm run changelog",
@@ -23,6 +23,9 @@
       "eslint --fix"
     ]
   },
+  "files": [
+    "tsconfig.json"
+  ],
   "repository": {
     "type": "git",
     "url": "https://gitee.com/agile-development-system/ts-config-js.git"

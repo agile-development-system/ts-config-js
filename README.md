@@ -1,4 +1,3 @@
-
 # @agds/ts-config-js
 **版本** ：1.0.0
 
@@ -7,6 +6,7 @@ agds系统的ts配置预设
 ## 快速开始
 
 ### 安装
+
 ```bash
 npm i -D @agds/ts-config-js
 ```
@@ -17,7 +17,7 @@ npm i -D @agds/ts-config-js
 ```json
 // tsconfig.json
 {
-  "extends": "@agds/tsconfig",
+  "extends": "@agds/ts-config-js",
   "include": [
     "src"
   ]
