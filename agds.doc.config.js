@@ -5,6 +5,7 @@
 const GenDoc = require('@agds/cli-plugin-doc');
 const fs = require('fs-extra');
 const { FastPath } = require('@agds/node-utils');
+const preset = require('@agds/agds-doc-preset');
 module.exports = (
     /**
      * 配置参数
@@ -16,9 +17,8 @@ module.exports = (
             GenDoc.getFilesCode({ dir: '.', files: ['tsconfig.json'] }),
         ]));
         return {
-            output: 'README.md',
+            presets: [preset],
             helpers: {
-                devInstall: true,
                 remark: '### 引入\n' +
                 '```json\n' +
                 '// tsconfig.json\n' +
